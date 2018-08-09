@@ -34,9 +34,10 @@ package org.springframework.core.env;
  *
  * @author Chris Beams
  * @since 3.1
- * @see Environment
+ * @see Environment 环境
  * @see ConfigurableEnvironment
  * @see org.springframework.context.ConfigurableApplicationContext#getEnvironment()
+ * 定义获取环境的方法
  */
 public interface EnvironmentCapable {
 

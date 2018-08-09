@@ -38,6 +38,7 @@ import org.springframework.util.ResourceUtils;
  * @see org.springframework.core.io.support.ResourcePatternResolver
  * @see org.springframework.context.ApplicationContext
  * @see org.springframework.context.ResourceLoaderAware
+ *  定义资源加载器，主要应用于根据资源文件的地址返回Resource
  */
 public interface ResourceLoader {
 

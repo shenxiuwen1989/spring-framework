@@ -74,6 +74,7 @@ import org.springframework.util.xml.XmlValidationModeDetector;
  * @see BeanDefinitionRegistry
  * @see org.springframework.beans.factory.support.DefaultListableBeanFactory
  * @see org.springframework.context.support.GenericApplicationContext
+ *  ∂¡»°xml≈‰÷√Œƒº˛
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
