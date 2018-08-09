@@ -74,7 +74,7 @@ import org.springframework.util.xml.XmlValidationModeDetector;
  * @see BeanDefinitionRegistry
  * @see org.springframework.beans.factory.support.DefaultListableBeanFactory
  * @see org.springframework.context.support.GenericApplicationContext
- *  ��ȡxml�����ļ�
+ *  ��ȡxml�����ļ�
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
@@ -317,7 +317,7 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 		if (logger.isTraceEnabled()) {
 			logger.trace("Loading XML bean definitions from " + encodedResource);
 		}
-
+		//通过属性来记录已经加载的资源
 		Set<EncodedResource> currentResources = this.resourcesCurrentlyBeingLoaded.get();
 		if (currentResources == null) {
 			currentResources = new HashSet<>(4);
