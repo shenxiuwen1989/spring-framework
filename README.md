@@ -4,7 +4,12 @@
 解决导入spring源码org.springframework.cglib.core.ClassGenerator无法编译的错误
 https://blog.csdn.net/xiongyouqiang/article/details/78395187
 
+2.spring4源码GroovyDynamicElementReader报错
+	要安装一个eclipse的groovy插件，之间的插件不大管用。
+	在eclipse的 Help -> Install New Software 中，添加groovy的下载连接：
+	http://dist.springsource.org/milestone/GRECLIPSE/e4.4/
 
+	然后全选后，开始下载，下载完后，重启eclipse，然后clean一下项目就搞定了。
 
 
 
