@@ -147,10 +147,12 @@ public abstract class AbstractBeanDefinition extends BeanMetadataAttributeAccess
 
 	private boolean lazyInit = false;
 
+	//自动注入模式，对应bean属性autowire
 	private int autowireMode = AUTOWIRE_NO;
 
 	private int dependencyCheck = DEPENDENCY_CHECK_NONE;
 
+	//用来表示一个bean的实例话依赖于另外一个bean的实例话
 	@Nullable
 	private String[] dependsOn;
 
